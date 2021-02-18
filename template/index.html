@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>ErazoCommerce</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">ErazoCommerce</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Carrito de compra</a>
+        <a href="signin.html">Ingresar al sitio</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Categorias</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <h4>Hombres</h4>
+      <ul>
+        <li>
+          <a href="index.html">Pantalones/Jeans</a>
+        </li>
+
+        <li>
+          <a href="index.html">Camisas</a>
+        </li>
+
+      </ul>
+      <h4>Mujeres</h4>
+      <ul>
+        <li>
+          <a href="index.html">Pantalones/Jeans</a>
+        </li>
+
+        <li>
+          <a href="index.html">Camisas</a>
+        </li>
+
+      </ul>
+      <h4>Niños/as</h4>
+      <ul>
+        <li>
+          <a href="index.html">Pantalones/Jeans</a>
+        </li>
+
+        <li>
+          <a href="index.html">Camisas</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/c1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/c2.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/c3.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/c4.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+     
+      <a  href="">sobre nosotros</a>
+      <a href="">Facebook</a>
+      <a href="">Instagram</a>
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
